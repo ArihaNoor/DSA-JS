@@ -11,5 +11,15 @@
  
 // There are 3 cases: Best case, Worst Case and Average Case
 
+//---Space Complexity---
+//Memory space a program can take
+// There are two space types involved:
+// 1- Input Space : That you take to store the problem 
+// 2- Auxiliary Space: that you take to solve the problem 
+
+// If I am storing N size of array this means that we are using O(N) space complexity.
+
+
+
 
 
