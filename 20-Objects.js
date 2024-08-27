@@ -28,6 +28,18 @@ User.email = "ariha@gmail.com"
 //--------------String Interpolation-------------------------
 
 
+//---------------Assigning values to object--------------
+
+
+const InstaUser = {
+
+}
+
+InstaUser.name = "Ariha"
+
+// console.log(InstaUser)
+
+
 
 
 
