@@ -39,5 +39,7 @@ const ObjectNew = {
 
 
 
+//-----Nullish Operator
 
+//------Ternary Operator
 

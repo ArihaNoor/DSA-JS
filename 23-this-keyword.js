@@ -3,6 +3,8 @@
 //Jab hum browser mai console krtay hain this keyword ko to wo hmay return karta hai
 // Window Object
 
+// console.log(this)
+
 //Jab hum node mai print kartay hain this keyword to return karta hai empty object
 
 const user = {
@@ -20,7 +22,7 @@ const user = {
 
 function ThisFunc() {
   const username = "Ariha";
-  console.log(this.username);
+  console.log(username);
 }
 
 // ThisFunc()
@@ -29,21 +31,21 @@ function ThisFunc() {
 
 //----------Arrow Function------------
 
-const arrow = () => {
-    console.log(this)
-};
+// const arrow = (arrow) => {
+//     console.log("ARROW:  ", this.arrow)
+// };
 
-arrow()
+// arrow("Arrow")
 
+//we can also write arrow function this way
 
-//we can also write arrow function this way 
+const FunctionOne = (num1, num2) => num1 + num2;
+const FunctionTwo = (num1, num2) => num1 + num2;
 
-const FunctionOne = (num1,num2) => num1 + num2
-const FunctionTwo = (num1,num2) => (num1 + num2)
+//code readability decrease
 
-//if we have one liner statment we can use this format also instead of writing return 
+//if we have one liner statment we can use this format also instead of writing return
 
+function Name() {}
 
-
-
-
+const Name = () => {};

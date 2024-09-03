@@ -3,13 +3,27 @@
 
 // let we have 3 variables
 
+
 // let a = 2;
 // const b = 3;
 // var c = 5;
 
 // console.log(a);
-// console.log(c);
 // console.log(b);
+// console.log(c);
+
+
+
+// {
+//     //functions, conditionals, loops 
+// }
+
+
+
+// {
+//     let c = 2;
+//     console.log(c)
+// }
 
 // these are {} scope of any function, loop, or conditional
 // let suppose we have
@@ -21,8 +35,8 @@ if (true) {
 }
 
 // console.log(a);
-// console.log(c);
 // console.log(b);
+console.log(c);
 
 
 //-------------IMP-----------------
@@ -31,3 +45,10 @@ if (true) {
 //accessible in the global scope
 
 
+let age = 2;
+if(age>10){
+    console.log("ABC");
+    // let c = 2;
+}
+
+// console.log(c)
