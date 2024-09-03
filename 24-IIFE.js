@@ -8,6 +8,9 @@
 
 //--------How we can write IIFE----------
 
+
+//It is known as Named IIFE
+
 (function MyFunction(){
     console.log("DB Connected")
 })();
