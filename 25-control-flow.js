@@ -1,18 +1,37 @@
 //---------If-Else 
 //---------IF-Else-If
 
+let IsLoggedIn = false
+
+// if(!IsLoggedIn){
+//     console.log("User LoggedIn Successfully");
+// }else{
+//     console.log("User Login Failed");
+// }
+
+
+
 //== and === Difference 
 
+// 1- == compares value 
+// 2- === compare value and type
+
+
 //!= and ==,  !==
+
+
 
 //----------Short Hand Notation 
 
 // if(age>10) console.log("Young") //not readable 
 
+
 //--------&&------------
-
-
+let PaymentSuccessfull = false;
+let user = true;
 //---------||----------
+// console.log(PaymentSuccessfull || user)
+
 
 
 //--------Conditional Rendering--------------
