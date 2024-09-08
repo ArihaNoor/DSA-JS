@@ -1,5 +1,13 @@
 let myCoding = ["ruby", "java", "cpp", "js"];
 
+let myArray = []
+
+myCoding.forEach((item)=>{
+  myArray.push(item)
+});
+
+// console.log(myArray)
+
 let values = myCoding.forEach((item) => {
   // console.log(item)
 });
@@ -12,41 +20,62 @@ let values = myCoding.forEach((item) => {
 
 const mynums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-mynums.forEach((num) => {
-  // console.log(num)
-});
+// mynums.forEach((num) => {
+//   console.log(num+3)
+// });
+
 
 //foreach function will not return any value only for printing
 
-const filteredNums = mynums.filter((num) => {
-  return num > 4;
+
+const filteredNums = mynums.filter((item)=>{
+  return item>7
 });
+
 
 // console.log(filteredNums)
 
 // so where we have to return we use filter function
 
+
+
+
 //----------Implicit Return-----------
 
-const Arrow = () => mynums[0];
+const Arrow = () => 2+3;
 
-const Arrow2 = () => mynums[0];
+const Arrow2 = () => (2+3);
 
 //----------Explicit Return-----------------
+
+
+const Arrow4 = () => {
+  return 2+3
+}
+
+// console.log(Arrow4())
+
 
 const Arrow3 = () => {
   // return mynums[0];
 };
 
+
+
+
+
+
 //--------------Map---------------
 
 const Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// const addTen = Numbers.map((item)=>{
-//     return item+10;
-// })
+const addTen = Numbers.map((item)=>{
+  return item+10;
+})
 
 // console.log(addTen)
+
+
 
 //--------Method Chaining---------
 
@@ -63,11 +92,18 @@ const chaining = Numbers.map((item) => {
 
 // console.log(chaining)
 
+
+
+
+
+
 //-------------reduce----------------
 
+const sum = Numbers.reduce(
+  (accumulator, currentValue) => {
+    console.log(`Acc: ${accumulator}, Current Value: ${currentValue}`)
+    return accumulator + currentValue;
+  },0
+)
 
-const sum = Numbers.reduce((acc,current)=>{
-  return acc + current
-})
-
-console.log(sum)
+// console.log(sum)
