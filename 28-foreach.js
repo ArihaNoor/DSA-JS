@@ -61,4 +61,13 @@ const chaining = Numbers.map((item) => {
 });
 
 
-console.log(chaining)
+// console.log(chaining)
+
+//-------------reduce----------------
+
+
+const sum = Numbers.reduce((acc,current)=>{
+  return acc + current
+})
+
+console.log(sum)
