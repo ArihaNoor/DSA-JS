@@ -55,5 +55,35 @@ for (const element of myObjects) {
 }
 
 for (const key in myObjects[0]) {
-    console.log(myObjects[0][key])
+    // console.log(myObjects[0][key])
 }
+
+
+// In Arrays we have only numeric keys like 0-n but in objects we have any key value 
+
+
+//---------For Each Loop---------------
+
+// It always takes a callback function in the loop 
+
+// Callback function is a function but it doesnot have its name
+
+
+let myCoding = ["Java", "JavaScript", "Python", "Ruby", "C++"]
+
+myCoding.forEach(element => {
+    // console.log(element)
+});
+
+// let suppose we have defined function 
+
+function Print(message){
+    // console.log(message)
+}
+
+myCoding.forEach(Print)
+
+
+myCoding.forEach((element, index, myCoding) => {
+    // console.log(element, index, myCoding)
+});
